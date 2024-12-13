@@ -1,0 +1,9 @@
+[site]
+bucket = "./out" # 静态文件路径
+entry-point = "workers-site"
+
+[build]
+command = "npm run build" # 构建命令
+
+[compatibility_flags]
+- "nodejs_compat"
